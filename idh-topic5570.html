@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+<title>NS-8040 Double Devices Detection Sensor Adjustment</title>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1" />
+<meta name="generator" content="HelpSmith 10.0 (Build 24.718)" />
+<link type="text/css" rel="stylesheet" href="css/tree.css?32b68661" />
+<link type="text/css" rel="stylesheet" href="css/topics.css?c57aaf86" />
+<link type="text/css" rel="stylesheet" href="css/apr.css?c57aaf86" />
+<link type="text/css" rel="stylesheet" href="css/app.css?c57aaf86" />
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/tree.min.js?32b68661"></script>
+<script src="js/tabs.min.js?32b68661"></script>
+<script src="js/jquery.cookie.js?32b68661"></script>
+<script src="js/headroom.min.js?32b68661"></script>
+<script src="js/app.min.js?32b68661"></script>
+<script src="js/search.min.js?32b68661"></script>
+<!-- Web Help Topic -->
+<script>
+doAppStart();
+</script>
+</head>
+<body>
+	<header>
+		<div id="hs-header-d">
+			<div id="hs-content-h">
+  <div id="hs-wrapper-h">
+    
+    <span id="hs-title-h">Untitled</span>
+  </div>
+</div>
+		</div>
+		<div id="hs-header-m">
+			<div id="hs-content-m">
+  <div id="hs-area-left">
+    <div id="hs-menu" class="hs-menu-toggle">
+      <span class="line1"></span>
+      <span class="line2"></span>
+      <span class="line3"></span>
+    </div>
+  </div>
+  <div id="hs-area-center">
+    <span id="hs-title-m">Untitled</span>
+  </div>
+  <div id="hs-area-right">
+    
+  </div>
+</div>
+		</div>
+	</header>
+	<nav id="hs-nav">
+		<div id="hs-nav-content">
+			<ul id="nav-tabs" role="tablist">
+				<li class="hs-toc-tab" role="tab">
+					<a href="#hs-toc-panel">Contents</a>
+				</li>
+				<li class="hs-index-tab" role="tab">
+					<a href="#hs-index-panel">Index</a>
+				</li>
+				<li class="hs-search-tab" role="tab">
+					<a href="#hs-search-panel">Search</a>
+				</li>
+			</ul>
+			<div id="tabs-panels">
+				<div class="hstabs-panel" id="hs-toc-panel" role="tabpanel">
+					<div id="toc-tree" class="hs-tree"></div>
+				</div>
+				<div class="hstabs-panel" id="hs-index-panel" role="tabpanel">
+					<div class="hs-index-content">
+						<div id="kwd-search-box">
+							<label for="kwd-search" class="sfield-title text-label">Type in the keyword(s) to find:</label>
+							<input type="text" id="kwd-search" autocomplete="off" />
+						</div>
+						<div id ="index-tree" class="hs-tree"></div>
+					</div>
+				</div>
+				<div class="hstabs-panel" id="hs-search-panel" role="tabpanel">
+					<div id="hs-search-content">
+						<div id="search-form">
+							<label for="squery" class="sfield-title text-label">Enter your search term:</label>
+							<div id="search-box">
+								<div class="search-container">
+									<input type="text" id="squery" autocomplete="off">
+								</div>
+								<div class="search-btn" title="Search"></div>
+							</div>
+							<div id="options-box">
+								<span class="text-label">Match:</span>
+								<input type="radio" id="anywords" name="match" value="anywords" checked="checked"><label for="anywords" class="text-label">Any words</label>
+								<input type="radio" id="phrase" name="match" value="phrase"><label for="phrase" class="text-label">Phrase</label>
+							</div>
+						</div>
+						<div id="search-result"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</nav>
+		<div id="hs-content">
+			<main>
+				<article>
+					<div id="topic-content">
+  <div id="content-box" class="page0">
+    <div>
+      <table class="tbl0">
+        <tr class="row0">
+          <td class="cell0">
+            <p class="ps0"><span class="ts0">NS-8040 Double Devices Detection Sensor Adjustment</span></p>
+          </td>
+          <td class="cell0">
+            <p class="ps1"><a href="ns7000upgradefrom4sitesto8sites.html" class="hs0">Previous</a><span class="ts1">&nbsp;</span><a href="technicalsupportnotes.html" class="hs0">Top</a><span class="ts1">&nbsp;</span><a href="vacuum-sensitivity-adjustment.html" class="hs0">Next</a></p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="hr-wrapper">
+      <hr class="hline0" />
+    </div>
+    <p><span class="ts9">Technical Support Notes</span></p>
+    <p><span class="ts9">Subject: NS-8040 Double Devices Detection Sensor Adjustment</span></p>
+    <p class="ps3"><span class="ts0">Handler Model: NS-8020/NS-8040</span></p>
+    <p class="ps3"><span class="ts0">Controller: RC520</span></p>
+    <p class="ps3"><span class="ts0">Date: 12 May 2008</span></p>
+    <p class="ps2"><br /><span class="ts3">&nbsp;</span></p>
+    <p class="ps6"><span class="ts9">Action</span></p>
+    <p class="ps3"><span class="ts0">The Double-device detection sensor is for NS8020/8040. </span></p>
+    <p class="ps3"><span class="ts0">This sensor has two purposes:</span></p>
+    <p class="ps3"><span class="ts0">1) for IC stack condition detection in socket (Double-device), </span></p>
+    <p class="ps3"><span class="ts0">2) for Index arm height calibration (Contact height detection). </span></p>
+    <p class="ps3"><br /><span class="ts7">&nbsp;</span></p>
+    <p class="ps3"><span class="ts0">The sensor position has to be adjusted to contact height calibration position. </span></p>
+    <p class="ps3"><span class="ts0">Contact height calibration position is from full stroke position above 1mm. </span></p>
+    <p class="ps3"><span class="ts31">&lt;Method&gt; </span></p>
+    <p class="ps3"><span class="ts0">1) Manually move Index Arm Down to full stroke position by hand(with break release). </span></p>
+    <p class="ps3"><span class="ts0">2) Move Up index arm 1mm from full shrink position by SPEL CT. </span></p>
+    <p class="ps3"><span class="ts0">Eg. ARM1 case: </span></p>
+    <p class="ps3"><span class="ts0">SELRB 1 </span></p>
+    <p class="ps3"><span class="ts0">MOTOR ON </span></p>
+    <p class="ps3"><span class="ts0">GO P*+z(1) </span></p>
+    <p class="ps3"><span class="ts0">Activate the E/P regulator by supply air to expand compliance unit using </span></p>
+    <p class="ps3"><span class="ts0">I/O bit&nbsp; (Out 240 - 249) for E/P regulator, eg On Output Bit 248 &amp; 249. </span></p>
+    <p class="ps3"><span class="ts0">Adjust double-device detection sensor height from turn off condition to turn on condition. </span></p>
+    <p class="ps3"><span class="ts0">The point of setting, full stroke position is double-device detection sensor turn off and </span></p>
+    <p class="ps3"><span class="ts0">from full stroke position to 1mm up position is sensor turn off condition. </span></p>
+    <p class="ps3"><span class="ts0">From 1mm up position to 2mm full expand position is double-device detection sensor turn on condition. </span></p>
+    <p class="ps3"><span class="ts0">Adjustment is that's all. </span></p>
+    <p class="ps3"><br /><span class="ts7">&nbsp;</span></p>
+    <p class="ps3"><span class="ts31">&lt;Motion&gt; </span></p>
+    <p class="ps3"><span class="ts0">For index arm height calibration. </span></p>
+    <p class="ps3"><span class="ts0">Index arm detect double-device detection sensor turn on(Orange LED ON) condition from turn off condition. </span></p>
+    <p class="ps3"><span class="ts0">This is from full stroke position from 1mm up position. </span></p>
+    <p class="ps3"><span class="ts0">After that, index arm calculate more 0.5mm up position as contact height. </span></p>
+    <p class="ps3"><span class="ts0">So, index arm compliance unit shrink 0.5mm when contact. </span></p>
+    <p class="ps3"><br /><span class="ts7">&nbsp;</span></p>
+    <p class="ps3"><span class="ts0">For double-device detect function. </span></p>
+    <p class="ps3"><span class="ts0">Index arm detect double-device condition when device thickness over 1.0mm. </span></p>
+    <p class="ps3"><span class="ts0">This function effective when device thickness from 0.5*** to under 1.0mm. </span></p>
+    <p class="ps3"><span class="ts0">Eg.&nbsp; Device sickness is 0.6mm. When double-device situation is device thickness is 1.2mm. 0.2mm is over 1.0mm. </span></p>
+    <p class="ps3"><span class="ts0">Double-device sensor detect that socket has double-device. </span></p>
+    <p class="ps3"><br /><span class="ts7">&nbsp;</span></p>
+    <p class="ps3"><span class="ts0">Note: </span></p>
+    <p class="ps3"><span class="ts0">Arm 1 all head for head 1 and 2 or arm 2 all head head 5 and 4 has to be adjusted to same sensor position, which mean that the same Index Arm Double Devices detection sensor turn off at the same time. </span></p>
+    <p class="ps3"><span class="ts0">If one Head is lower (less than 1mm up position), contact height has priority to near (lower) sensor position. </span></p>
+    <p class="ps4"><br /></p>
+    <div class="hr-wrapper">
+      <hr class="hline1" />
+    </div>
+    <p class="ps5"><span class="ts10">Created with an evaluation copy of HelpSmith.</span><br /><span class="ts10">To remove this notice, you should </span><a href="http://www.helpsmith.com/buynow.php" target="_blank" class="hs1">purchase the full version</a><span class="ts10">&nbsp;of the product.</span></p>
+  </div>
+</div>
+				</article>
+			</main>
+		</div>
+		
+</body>
+</html>
